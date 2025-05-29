@@ -1,15 +1,5 @@
 "use client"
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { Twitter, FileText, Github, BookOpen } from 'lucide-react'
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip"
-
 export default function Hero() {
 
   return (

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Building2, Code2, Blocks, Cpu, Globe, Twitter, Linkedin } from 'lucide-react'
+import {  Code2, Globe } from 'lucide-react'
 import ExperienceModal from "../modals/ExperienceModal"
 import { useState } from "react"
 
