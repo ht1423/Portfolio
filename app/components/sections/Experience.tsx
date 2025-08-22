@@ -30,6 +30,23 @@ export default function Experience() {
   
   const experiences: Experience[] = [
     {
+      company: "CodeBurnerz Technologies",
+      role: "Frontend Developer",
+      period: "Aug 2025 – Current",
+      description: "Contributing to website and app development projects for clients across multiple domains.",
+      tech: ["React", "Nextjs"],
+      achievements: [
+        "Just started working here as a fresher — gaining exposure and contributing to live projects.",
+      ],
+      icon: <Blocks className="w-5 h-5 text-green-400" />,
+      links: [{
+        type: 'website',
+        url: 'https://www.codeburnerz.com/',
+        icon: <Code2 className="w-3 h-3" />,
+        label: 'Website'
+      }]
+    },    
+    {
       company: "OneClickcomm",
       role: "App Developer (Freelance)",
       period: "Current",
@@ -48,39 +65,7 @@ export default function Experience() {
         label: 'Website'
       },]
     },
-    {
-      company: "Soujourn International",
-      role: "Frontend Developer (Freelance)",
-      period: "2025",
-      description: "Developed UI for a travel and booking platform using MERN stack",
-      tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
-      achievements: [
-        "Built responsive dashboards and booking flows for a seamless user experience",
-        "Integrated secure authentication and real-time routing for dynamic content",
-        "Collaborated with backend team to improve API performance and reduce load times"
-      ],
-      icon: <Blocks className="w-5 h-5 text-green-400" />,
-      
-    },
-    {
-      company: "Veritas Tech",
-      role: "Frontend Developer Intern",
-      period: "2024",
-      description: "Built UI for decentralized applications on AO protocol",
-      tech: ["React", "TailwindCSS", "TypeScript", "AO"],
-      achievements: [
-        "Designed and implemented Web3 UI components for decentralized platforms",
-        "Integrated APIs and optimized responsive layouts for real-time blockchain data",
-        "Enhanced user experience through UI performance optimization"
-      ],
-      icon: <Code2 className="w-5 h-5 text-purple-400" />,
-      links: [{
-        type: 'website',
-        url: 'https://veritas-ao.dev/',
-        icon: <Code2 className="w-3 h-3" />,
-        label: 'Website'
-      },]
-    },
+    
     {
       company: "IBM SkillsBuild",
       role: "Data Analyst Intern",

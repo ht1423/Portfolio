@@ -18,10 +18,10 @@ export default function About() {
         <div className="absolute -inset-1 bg-gradient-to-r from-pink-600/20 to-purple-600/20 rounded-lg blur-xl" />
         <div className="relative">
           <p className="text-[var(--text-secondary)] leading-relaxed hover:text-[var(--text-primary)] transition-colors">
-            I&apos;m a passionate <strong>Frontend Developer</strong> focused on building
+            I&apos;m a passionate <strong>MERN Stack Developer</strong> focused on building
             modern, responsive, and user-friendly web applications. I specialize
-            in creating seamless digital experiences using <strong>React</strong>,
-            <strong> Next.js</strong>, and <strong>Tailwind CSS</strong>.
+            in creating seamless digital experiences using <strong>MongoDB</strong>,
+            <strong>Express.js</strong>, <strong>React</strong>, and <strong>Node.js</strong>.
           </p>
           <p className="text-[var(--text-secondary)] leading-relaxed mt-4 hover:text-[var(--text-primary)] transition-colors">
             My core expertise lies in crafting clean UI components, optimizing performance,

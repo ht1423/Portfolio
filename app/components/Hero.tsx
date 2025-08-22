@@ -70,11 +70,13 @@ export default function Hero() {
       </h1>
 
       <p className="text-[var(--text-secondary)] text-base mb-4">
-        22, Delhi | Frontend Developer
+        22, Delhi | MERN Stack Developer
       </p>
 
       <p className="text-[var(--text-secondary)] max-w-xl">
-        I&apos;m a passionate Frontend Developer specializing in building modern, responsive, and user-friendly web interfaces. Skilled in React, Tailwind CSS, and JavaScript, I create seamless digital experiences that bring designs to life.
+      I&apos;m a passionate <strong>MERN Stack Developer</strong> focused on building
+      modern, responsive, and user-friendly web applications. I specialize
+      in creating seamless digital experiences using the <strong>MERN stack</strong>.
       </p>
 
     </section>

@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: 'Harshita Tiwari',
-  description: 'Frontend Developer',
+  description: 'MERN Stack Developer',
 }
 
 export default function RootLayout({
