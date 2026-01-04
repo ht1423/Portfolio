@@ -74,10 +74,11 @@ export default function Hero() {
       </p>
 
       <p className="text-[var(--text-secondary)] max-w-xl">
-      I&apos;m a passionate <strong>MERN Stack Developer</strong> focused on building
-      modern, responsive, and user-friendly web applications. I specialize
-      in creating seamless digital experiences using the <strong>MERN stack</strong>.
-      </p>
+  I&apos;m a <strong>MERN Stack Developer</strong> who enjoys turning ideas into
+  practical, user-friendly web applications. I focus on building responsive
+  interfaces and smooth digital experiences using the <strong>MERN stack</strong>.
+</p>
+
 
     </section>
   )

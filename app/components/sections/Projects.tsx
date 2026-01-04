@@ -211,7 +211,7 @@ export default function Projects() {
         Projects
       </h2>
       <p className="text-[var(--text-muted)] mb-8">
-        A showcase of my frontend projects and landing pages, crafted with attention to detail, performance, and user experience. From sleek animations to pixel-perfect layouts, these projects highlight my expertise with React, Next.js, and modern design practices.
+        A showcase of my projects and landing pages, crafted with attention to detail, performance, and user experience. From sleek animations to pixel-perfect layouts, these projects highlight my expertise with React, Next.js, and modern design practices.
       </p>
 
       <Tabs defaultValue="personal" className="w-full">
