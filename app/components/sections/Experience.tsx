@@ -41,7 +41,7 @@ export default function Experience() {
       icon: <Cpu className="w-5 h-5 text-blue-400" />,
       links: [{
         type: 'website',
-        url: '',
+        url: ' ',
         icon: <Code2 className="w-3 h-3" />,
         label: 'Wesbite'
       },]
