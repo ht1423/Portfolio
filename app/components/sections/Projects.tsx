@@ -70,7 +70,7 @@ export default function Projects() {
         "A sleek landing page clone of Sundown Studio, built to showcase a modern startup’s product with smooth animations and elegant design.",
       tech: ["React", "TailwindCSS", "Framer Motion"],
       link: "https://sundown-lime.vercel.app/", 
-      image: "/images/sundown.png", 
+      image: "/images/sundown.png ", 
       gradient: "from-pink-600/20 via-purple-600/20 to-red-600/20"
     },
     {
