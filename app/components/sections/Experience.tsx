@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Building2, Code2, Blocks, Cpu } from 'lucide-react'
+import { Building2, Code2, Cpu } from 'lucide-react'
 import ExperienceModal from "../modals/ExperienceModal"
 import { useState } from "react"
 
@@ -30,32 +30,30 @@ export default function Experience() {
   
   const experiences: Experience[] = [
     {
-      company: "CodeBurnerz Technologies",
-      role: "Frontend Developer",
-      period: "Aug 2025 – Current",
-      description: "Contributing to website and app development projects for clients across multiple domains.",
-      tech: ["React", "Nextjs"],
+      company: "Independent (Project - Zenex)",
+      role: "UI Developer - Freelance",
+      period: "July 2025",
+      description: "Assisted in building the frontend UI for a Web3 trading platform using Next.js and TailwindCSS, contributing reusable components.",
+      tech: ["TailwindCSS", "JavaScript", "Nextjs"],
       achievements: [
-        "Just started working here as a fresher — gaining exposure and contributing to live projects.",
+        "Implemented responsive layouts for seamless cross-device use.",
       ],
-      icon: <Blocks className="w-5 h-5 text-green-400" />,
+      icon: <Cpu className="w-5 h-5 text-blue-400" />,
       links: [{
         type: 'website',
-        url: 'https://www.codeburnerz.com/',
+        url: '',
         icon: <Code2 className="w-3 h-3" />,
-        label: 'Website'
-      }]
-    },    
+        label: 'Wesbite'
+      },]
+    },
     {
-      company: "OneClickcomm",
-      role: "App Developer (Freelance)",
-      period: "Current",
-      description: "Building a skincare-based mobile app to recommend tanning routines",
+     company: "OneClickcomm",
+      role: "App Developer - Freelance",
+      period: "July 2025",
+      description: "Contributed to the Tanlines skincare app using React Native and Expo, implementing quick actions and improving responsive UI for iOS/Android.",
       tech: ["React Native", "Expo", "JavaScript", "Firebase"],
       achievements: [
-        "Developing core features for a personalized skincare app with camera integration",
-        "Collaborating with skincare experts and client to deliver a functional MVP",
-        "Implemented responsive UI and optimized user flows for mobile experience"
+        "Enhanced app usability and responsiveness across iOS and Android devices"
       ],
       icon: <Building2 className="w-5 h-5 text-pink-400" />,
       links: [{
@@ -66,25 +64,7 @@ export default function Experience() {
       },]
     },
     
-    {
-      company: "IBM SkillsBuild",
-      role: "Data Analyst Intern",
-      period: "2024",
-      description: "Analyzed large datasets and delivered insights to improve diversity in leadership",
-      tech: ["Python", "SQL", "Pandas", "Tableau"],
-      achievements: [
-        "Processed and cleaned 1M+ records to improve data accuracy and reduce processing time",
-        "Analyzed leadership diversity across 15+ countries and provided actionable recommendations",
-        "Created interactive dashboards and reports for data-driven decision-making"
-      ],
-      icon: <Cpu className="w-5 h-5 text-blue-400" />,
-      links: [{
-        type: 'website',
-        url: 'https://skillsbuild.org/',
-        icon: <Code2 className="w-3 h-3" />,
-        label: 'Wesbite'
-      },]
-    }
+    
   ];
   
   return (

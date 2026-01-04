@@ -30,12 +30,13 @@ export default function Projects() {
       gradient: "from-purple-600/20 via-pink-600/20 to-red-600/20"
     },
     {
-      title: "SnipSavvy",
+      title: "FasterUI",
       description:
-        "Code snippet management platform with multi-level sharing and organization capabilities.",
-      tech: ["Next.js", "TypeScript", "Tailwind", "Node.js", "MongoDB"],
-      link: "https://snipsavvy.vercel.app/",
-      image: "/images/snip.png",
+        "Created a responsive multi-section landing page featuring services, a portfolio carousel, FAQs, and a contact form. Implemented frontend functionality using Axios to handle contact requests efficiently.",
+      tech: ["Tailwind", "React"],
+      status: "Active",
+      link: "https://faster-ui-seven.vercel.app/",
+      image: "/images/fasterUI.png",
       gradient: "from-cyan-600/20 via-blue-600/20 to-indigo-600/20"
     },
     {
@@ -49,13 +50,13 @@ export default function Projects() {
       gradient: "from-emerald-600/20 via-teal-600/20 to-cyan-600/20"
     },
     {
-      title: "medium-clone",
+      title: "Dev-Dashboard",
       description:
-        "A platform for reading, writing, and sharing articles with a clean, intuitive interface. Built during Cohort 2.0 with Harkirat Singh.",
-      tech: ["TypeScript", "React", "MongoDB", "Express"],
-      status: "Active",
-      link: "https://medium-hono.vercel.app/",
-      image: "/images/medium.png", 
+        "Developed a developer dashboard to track activity and manage widgets like notes, todo, timer. •Built the backend with GitHub OAuth and APIs for seamless data integration.",
+      tech: ["JavaScript", "React", "MongoDB", "Express"],
+      status: "Not-active",
+      link: "",
+      image: "/images/download.png", 
       gradient: "from-indigo-600/20 via-blue-600/20 to-cyan-600/20"
     },
   ];
