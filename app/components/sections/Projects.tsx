@@ -36,7 +36,7 @@ export default function Projects() {
       tech: ["Tailwind", "React"],
       status: "Active",
       link: "https://faster-ui-seven.vercel.app/",
-      image: "/images/fasterUI.png",
+      image: "/images/fasterUi.png",
       gradient: "from-cyan-600/20 via-blue-600/20 to-indigo-600/20"
     },
     {
@@ -56,7 +56,7 @@ export default function Projects() {
       tech: ["JavaScript", "React", "MongoDB", "Express"],
       status: "Not-active",
       link: "",
-      image: "/images/download.png", 
+      image: "/images/download.jpeg", 
       gradient: "from-indigo-600/20 via-blue-600/20 to-cyan-600/20"
     },
   ];
