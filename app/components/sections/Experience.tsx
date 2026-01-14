@@ -29,43 +29,38 @@ export default function Experience() {
   const [selectedExperience, setSelectedExperience] = useState<Experience | null>(null)
   
   const experiences: Experience[] = [
-    {
-      company: "Independent (Project - Zenex)",
-      role: "UI Developer - Freelance",
-      period: "July 2025",
-      description: "Assisted in building the frontend UI for a Web3 trading platform using Next.js and TailwindCSS, contributing reusable components.",
-      tech: ["TailwindCSS", "JavaScript", "Nextjs"],
-      achievements: [
-        "Implemented responsive layouts for seamless cross-device use.",
-      ],
-      icon: <Cpu className="w-5 h-5 text-blue-400" />,
-      links: [{
-        type: 'website',
-        url: ' ',
-        icon: <Code2 className="w-3 h-3" />,
-        label: 'Wesbite'
-      },]
-    },
-    {
-     company: "OneClickcomm",
-      role: "App Developer - Freelance",
-      period: "July 2025",
-      description: "Contributed to the Tanlines skincare app using React Native and Expo, implementing quick actions and improving responsive UI for iOS/Android.",
-      tech: ["React Native", "Expo", "JavaScript", "Firebase"],
-      achievements: [
-        "Enhanced app usability and responsiveness across iOS and Android devices"
-      ],
-      icon: <Building2 className="w-5 h-5 text-pink-400" />,
-      links: [{
-        type: 'website',
-        url: 'https://www.oneclickcomm.com/',
-        icon: <Code2 className="w-3 h-3" />,
-        label: 'Website'
-      },]
-    },
-    
-    
-  ];
+  {
+    company: "Independent (Project - Zenex)",
+    role: "UI Developer - Freelance",
+    period: "July 2025",
+    description: "Contributed to building UI components for a Web3 trading platform using React and TailwindCSS.",
+    tech: ["TailwindCSS", "JavaScript", "React"],
+    achievements: [],
+    icon: <Cpu className="w-5 h-5 text-blue-400" />,
+    links: [{
+      type: 'website',
+      url: ' ',
+      icon: <Code2 className="w-3 h-3" />,
+      label: 'Website'
+    }]
+  },
+  {
+    company: "OneClickcomm",
+    role: "App Developer - Freelance",
+    period: "July 2025",
+    description: "Contributed to the Tanlines skincare app by developing UI components and implementing quick actions using React Native and Expo.",
+    tech: ["React Native", "Expo", "JavaScript", "Firebase"],
+    achievements: [],
+    icon: <Building2 className="w-5 h-5 text-pink-400" />,
+    links: [{
+      type: 'website',
+      url: 'https://www.oneclickcomm.com/',
+      icon: <Code2 className="w-3 h-3" />,
+      label: 'Website'
+    }]
+  },
+];
+
   
   return (
     <>
