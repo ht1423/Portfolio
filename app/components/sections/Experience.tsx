@@ -74,7 +74,7 @@ export default function Experience() {
           Experience
         </h2>
         <p className="text-[var(--text-muted)] mb-8">
-        My professional journey so far, showcasing roles, milestones, and impactful contributions in development.
+        My professional journey so far.
       </p>
 
         <div className="space-y-6">

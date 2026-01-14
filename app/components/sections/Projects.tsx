@@ -41,8 +41,7 @@ export default function Projects() {
     },
     {
       title: "Price Findrr",
-      description:
-        "A one-stop solution for all your price tracking needs, automating alerts on discounts, lowest prices, and stock availability for Amazon.in products.",
+      description: "Developed the UI for a price tracking tool, implementing responsive layouts and integrating email alerts using Nodemailer for discount and stock notifications on Amazon.in products.",
       tech: ["Next.js", "TypeScript", "Zod", "Tailwind CSS", "Nodemailer"],
       status: "Active",
       link: "https://price-findrr-tau.vercel.app/", 
@@ -51,8 +50,7 @@ export default function Projects() {
     },
     {
       title: "Dev-Dashboard",
-      description:
-        "Developed a developer dashboard to track activity and manage widgets like notes, todo, timer. •Built the backend with GitHub OAuth and APIs for seamless data integration.",
+      description: "Built the backend for a developer dashboard to manage widgets like notes, todo, and timer. Implemented GitHub OAuth and APIs for seamless data handling and integration.",
       tech: ["JavaScript", "React", "MongoDB", "Express"],
       status: "Not-active",
       link: "",
@@ -211,8 +209,9 @@ export default function Projects() {
         Projects
       </h2>
       <p className="text-[var(--text-muted)] mb-8">
-        A showcase of my projects and landing pages, crafted with attention to detail, performance, and user experience. From sleek animations to pixel-perfect layouts, these projects highlight my expertise with React, Next.js, and modern design practices.
-      </p>
+  A selection of my projects showcasing responsive design, interactive interfaces, and full-stack development. Each project demonstrates practical solutions, clean code, and attention to user experience.
+</p>
+
 
       <Tabs defaultValue="personal" className="w-full">
   <TabsList className="grid w-full grid-cols-2 mb-8 bg-[var(--card-background)] border-[var(--card-border)]">
