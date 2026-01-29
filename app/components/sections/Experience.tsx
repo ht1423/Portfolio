@@ -46,7 +46,7 @@ export default function Experience() {
   },
   {
     company: "OneClickcomm",
-    role: "App Developer - Freelance",
+    role: "Frontend Developer - Freelance",
     period: "July 2025",
     description: "Contributed to the Tanlines skincare app by developing UI components and implementing quick actions using React Native and Expo.",
     tech: ["React Native", "Expo", "JavaScript", "Firebase"],
