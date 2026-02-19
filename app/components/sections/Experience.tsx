@@ -108,15 +108,19 @@ export default function Experience() {
                     </div>
                     <div className="space-y-1.5 flex-grow w-full">
                       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                        <div className="flex flex-wrap items-center gap-2">
-                          <CardTitle className="text-lg text-[var(--text-primary)]">
-                            {exp.role}
-                          </CardTitle>
-                          <span className="text-sm text-[var(--text-muted)]">•</span>
-                          <span className="text-[var(--text-muted)]">
-                            {exp.company}
-                          </span>
-                        </div>
+                        <div className="flex flex-col">
+                              <div className="flex items-center gap-2">
+                                <CardTitle className="text-lg text-[var(--text-primary)]">
+                                  {exp.role}
+                                </CardTitle>
+                                <span className="text-sm text-[var(--text-muted)]">•</span>
+                              </div>
+
+                              <span className="text-[var(--text-muted)]">
+                                {exp.company}
+                              </span>
+                            </div>
+
                         {exp.links && (
                           <div className="flex flex-wrap gap-2">
                             {exp.links.map((link, i) => (
