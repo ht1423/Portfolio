@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Building2, Code2, Cpu, SearchCheck } from 'lucide-react'
+import { Building2, Cpu, SearchCheck } from 'lucide-react'
 import ExperienceModal from "../modals/ExperienceModal"
 import { useState } from "react"
 
@@ -40,8 +40,8 @@ export default function Experience() {
     links: [{
       type: 'website',
       url: ' ',
-      icon: <Code2 className="w-3 h-3" />,
-      label: 'Website'
+      icon: ' ',
+      label: ' '
     }]
   },
   {
@@ -55,7 +55,7 @@ export default function Experience() {
     links: [{
       type: 'website',
       url: ' ',
-      icon: <Code2 className="w-3 h-3" />,
+      icon: ' ',
       label: ' '
     }]
   },
@@ -70,7 +70,7 @@ export default function Experience() {
     links: [{
       type: 'website',
       url: ' ',
-      icon: <Code2 className="w-3 h-3" />,
+      icon: ' ',
       label: ' '
     }]
   },
@@ -113,7 +113,7 @@ export default function Experience() {
                                 <CardTitle className="text-lg text-[var(--text-primary)]">
                                   {exp.role}
                                 </CardTitle>
-                                <span className="text-sm text-[var(--text-muted)]">•</span>
+                               
                               </div>
 
                               <span className="text-[var(--text-muted)]">
