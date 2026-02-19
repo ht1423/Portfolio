@@ -4,8 +4,6 @@ import { motion } from "framer-motion"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Building2, Cpu, SearchCheck } from 'lucide-react'
-import ExperienceModal from "../modals/ExperienceModal"
-import { useState } from "react"
 
 interface ExperienceLink {
   type: 'website' | 'twitter' | 'app' | 'linkedin'
@@ -26,7 +24,6 @@ export interface Experience {
 }
 
 export default function Experience() {
-  const [selectedExperience, setSelectedExperience] = useState<Experience | null>(null)
   
   const experiences: Experience[] = [
     {
@@ -98,7 +95,7 @@ export default function Experience() {
             >
               <Card 
                 className="group relative border-[var(--card-border)] bg-[var(--card-background)] hover:bg-[var(--hover-background)] transition-all duration-300 overflow-hidden cursor-pointer"
-                onClick={() => setSelectedExperience(exp)}
+                
               >
                 <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500/20 via-cyan-500/20 to-transparent" />
                 <CardHeader className="pb-4">
@@ -169,11 +166,6 @@ export default function Experience() {
         </div>
       </motion.section>
 
-      <ExperienceModal 
-        experience={selectedExperience}
-        isOpen={!!selectedExperience}
-        onClose={() => setSelectedExperience(null)}
-      />
     </>
   )
 } 

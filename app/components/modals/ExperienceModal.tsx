@@ -116,7 +116,6 @@ export default function ExperienceModal({ experience, isOpen, onClose }: Experie
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              <h3 className="text-sm font-medium mb-2">Key Achievements</h3>
               <ul className="space-y-2">
                 {experience.achievements.map((achievement, i) => (
                   <motion.li 
