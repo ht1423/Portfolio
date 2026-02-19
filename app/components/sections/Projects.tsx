@@ -214,7 +214,7 @@ export default function Projects() {
 
 
       <Tabs defaultValue="personal" className="w-full">
-  <TabsList className="grid w-full mb-8 bg-[var(--card-background)] border-[var(--card-border)]">
+<TabsList className="grid grid-cols-2 w-full mb-8 bg-[var(--card-background)] border-[var(--card-border)]">
     <TabsTrigger
       value="personal"
       className="data-[state=active]:bg-[var(--hover-background)] data-[state=active]:text-[var(--text-primary)]  data-[state=active]:border

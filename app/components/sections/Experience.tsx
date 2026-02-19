@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Building2, Code2, Cpu } from 'lucide-react'
+import { Building2, Code2, Cpu, SearchCheck } from 'lucide-react'
 import ExperienceModal from "../modals/ExperienceModal"
 import { useState } from "react"
 
@@ -36,7 +36,7 @@ export default function Experience() {
     description: "Evaluated web content and search results for relevance and accuracy using Page Quality and Needs Met guidelines, collaborating with Arandee Rater Community.",
     tech: ["Search Quality Evaluation", "Web Content Analysis", "Online Research", "Data Annotation", "Google Search"],
     achievements: [],
-    icon: <Cpu className="w-5 h-5 text-yellow-400" />,
+    icon: <SearchCheck  className="w-5 h-5 text-yellow-400" />,
     links: [{
       type: 'website',
       url: ' ',
