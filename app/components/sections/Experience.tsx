@@ -29,14 +29,14 @@ export default function Experience() {
   const [selectedExperience, setSelectedExperience] = useState<Experience | null>(null)
   
   const experiences: Experience[] = [
-  {
-    company: "Independent (Project - Zenex)",
-    role: "UI Developer - Freelance",
-    period: "July 2025",
-    description: "Contributed to building UI components for a Web3 trading platform using React and TailwindCSS.",
-    tech: ["TailwindCSS", "JavaScript", "React"],
+    {
+    company: "Welocalize",
+    role: "Search Quality Rater",
+    period: "February 2026",
+    description: "Evaluated web content and search results for relevance and accuracy using Page Quality and Needs Met guidelines, collaborating with Arandee Rater Community.",
+    tech: ["Search Quality Evaluation", "Web Content Analysis", "Online Research", "Data Annotation", "Google Search"],
     achievements: [],
-    icon: <Cpu className="w-5 h-5 text-blue-400" />,
+    icon: <Cpu className="w-5 h-5 text-yellow-400" />,
     links: [{
       type: 'website',
       url: ' ',
@@ -45,7 +45,22 @@ export default function Experience() {
     }]
   },
   {
-    company: "OneClickcomm",
+    company: "Independent (Project - Zenex)",
+    role: "UI Developer - Freelance",
+    period: "July 2025",
+    description: "Contributed to building UI components for a crypto trading platform using Nextjs and TailwindCSS.",
+    tech: ["TailwindCSS", "JavaScript", "Nextjs"],
+    achievements: [],
+    icon: <Cpu className="w-5 h-5 text-blue-400" />,
+    links: [{
+      type: 'website',
+      url: ' ',
+      icon: <Code2 className="w-3 h-3" />,
+      label: ' '
+    }]
+  },
+  {
+    company: "Independent (Project - Tanlines)",
     role: "Frontend Developer - Freelance",
     period: "July 2025",
     description: "Contributed to the Tanlines skincare app by developing UI components and implementing quick actions using React Native and Expo.",
@@ -54,9 +69,9 @@ export default function Experience() {
     icon: <Building2 className="w-5 h-5 text-pink-400" />,
     links: [{
       type: 'website',
-      url: 'https://www.oneclickcomm.com/',
+      url: ' ',
       icon: <Code2 className="w-3 h-3" />,
-      label: 'Website'
+      label: ' '
     }]
   },
 ];
