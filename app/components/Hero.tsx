@@ -1,6 +1,6 @@
 "use client"
 
-// import Image from 'next/image'
+import Image from 'next/image'
 
 
 export default function Hero() {
@@ -10,13 +10,13 @@ export default function Hero() {
       <div className="flex justify-between items-start mb-8 pt-20" id="ca426f02-0d88-47a3-a431-3965a58b1d3b">
         {/* Profile Image */}
         <div className="relative w-[128px] h-[128px] rounded-2xl overflow-hidden">
-          {/* <Image 
+          <Image 
             src="/pfp.jpeg"
             alt="Profile picture"
             fill
             className="h-28 w-28 rounded-3xl object-cover"
             priority
-          /> */}
+          />
         </div>
 
         {/* Action Buttons */}
@@ -70,11 +70,11 @@ export default function Hero() {
       </h1>
 
       <p className="text-[var(--text-secondary)] text-base mb-4">
-        22, Delhi | MERN Stack Developer
+        22, Delhi 
       </p>
 
       <p className="text-[var(--text-secondary)] max-w-xl">
-  I&apos;m a <strong>MERN Stack Developer</strong> passionate about turning ideas into practical, user-friendly web applications. I focus on building responsive interfaces and delivering smooth, interactive digital experiences.
+  I&apos;m passionate about turning ideas into practical, user-friendly applications. I focus on building responsive interfaces and delivering smooth, interactive digital experiences.
 </p>
 
 

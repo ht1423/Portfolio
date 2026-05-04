@@ -28,7 +28,7 @@ export default function Experience() {
   const experiences: Experience[] = [
     {
     company: "Welocalize",
-    role: "Search Quality Rater",
+    role: "Web Content Evaluator",
     period: "February 2026",
     description: "Evaluated web content and search results for relevance and accuracy using Page Quality and Needs Met guidelines, collaborating with Arandee Rater Community.",
     tech: ["Search Quality Evaluation", "Web Content Analysis", "Online Research", "Data Annotation", "Google Search"],
